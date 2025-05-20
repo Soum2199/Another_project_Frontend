@@ -7,7 +7,7 @@ function Product(props) {
     const [productList, setProductList] = useState([])
 
     useEffect(() => {
-      Axios.get("http://localhost:8086/get/products")
+      Axios.get("https://another-project-backends.onrender.com/get/products")
       .then(dates => {
         console.log(dates)
         console.log(dates.data)
