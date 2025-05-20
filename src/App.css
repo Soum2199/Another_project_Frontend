@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+.routes-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+p {
+font-weight: 600;
+font-size: 20px;
+}
+
+span>ul>li{
+  list-style-type: none;
+ 
+}
+span>ul>li:hover, cite:hover{
+  background-color: cornsilk;
+}
+a{
+  font-size: 31px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
